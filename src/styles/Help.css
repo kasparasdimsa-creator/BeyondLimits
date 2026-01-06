@@ -1,0 +1,151 @@
+.help-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #1F008D; /* dark blue background */
+  min-height: 100vh;
+  padding: 50px;
+  font-family: "Trocchi", serif;
+}
+
+/* LEFT PANEL */
+.help-left {
+  background-color: #4e64ea; /* light indigo */
+  padding: 35px;
+  border-radius: 25px;
+  width: 125%;
+  color: white;
+  height: 590px;
+  margin-left: 130px;
+  margin-top: 110px;
+}
+
+.help-title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+  line-height: 1.4;
+  color: white;
+  text-transform: none;
+    font-family: "Trocchi", serif;
+}
+
+/* FORM */
+.help-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.help-input {
+  width: 95%;
+  padding: 15px;
+  font-size: 22px;
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 2px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Trocchi", serif;
+  transform: translateX(14px);
+  color: black;
+}
+
+/* RESPONSE AREA */
+.response-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+    text-align: center;
+    font-family: "Trocchi", serif;
+}
+
+.response-box {
+  background: white;
+  width: 95%;
+  height: 370px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(14px);
+white-space: pre-line;
+  line-height: 1.6;
+  font-size: 15px;
+  color: black;
+    font-family: "Trocchi", serif;
+    margin-top: 50px;
+}
+
+.chatgpt-logo {
+  width: 200px;
+  opacity: 1;
+}
+
+/* RIGHT PANEL */
+.help-right {
+  width: 67%;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 110px;
+  pointer-events: auto;
+  margin-right: -30px;
+}
+
+.exercise-image {
+  width: 175%;
+  border-radius: 20px;
+  margin-bottom: -3px;
+  margin-top: 2px;
+  transform: translateX(-145px);
+  pointer-events: none;
+}
+
+.help-page .back-link {
+  color: #8ab4ff;
+  font-size: 26px;
+  text-decoration: underline;
+  font-family: "Trocchi", serif;
+  margin-top: 85px;
+  transform: translateX(420px);
+  &:hover {
+    color: white;
+  }
+}
+
+.back-wrapper {
+  display: flex;
+  justify-content: center;
+  transform: translateX(-430px)
+}
+
+.help-page .info-text {
+   font-family: "Trocchi", sans-serif; 
+   align-items: center;
+   margin-inline: 17px;
+       font-size: 25px;
+    font-weight: 350;
+    margin-top: -7px;
+}
+
+.response-text {
+    align-items: center;
+    margin-inline: 17px;
+    font-family: "Trocchi", sans-serif;
+    font-size: 17px;
+    font-weight: 350;
+    margin-top: -10px;
+}
+
+.video-link {
+  font-size: 19px;
+  font-weight: 350;
+  margin-top: 15px;
+  font-family: "Trocchi", serif;
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-color: #000000;
+  &:hover {
+    color: #1040a1;
+    text-decoration: underline;
+  }
+}
